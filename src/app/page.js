@@ -13,7 +13,7 @@ export default function Home() {
 
         <Logo />
 
-        <h1 className='text-4xl mb-8 mt-8 xl:mt-2 font-semibold sm:text-6xl xl:text-9xl'>COMING SOON!</h1>
+        <h1 className='text-4xl mb-8 mt-8 xl:mt-2 font-semibold sm:text-6xl xl:text-9xl text-white'>COMING SOON!</h1>
         <div className='md:text-center lg:text-xl'>
 
           <p className='yellow'>Tel: <a className='white font-bold ' href='tel://+97148702000'>
