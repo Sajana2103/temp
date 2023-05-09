@@ -15,7 +15,14 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
+.st0{fill:#FFFFFF;}
+#logo{
+  height: auto;
+ padding: 0px 15rem 0px 15rem;
+  display: grid;
+  /* justify-content: center */
 
+}
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
