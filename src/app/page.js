@@ -4,6 +4,7 @@ import { Logo } from '../../components/logo'
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
+      <title>RORGANICS</title>
       <Image src="/bg.jpg" width={1000} height={500} className='absolute -z-10 left-0 right-0 top-0 bottom-0 h-screen w-screen
        object-cover object-center'/>
     <div className="xl:w-3/4 text-center ">
