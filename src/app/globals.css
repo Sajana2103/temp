@@ -3,6 +3,8 @@
 @tailwind utilities;
 
 :root {
+  --yellow:#fccc6f;
+
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -15,13 +17,18 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
+.yellow{
+  color: var(--yellow);
+}
 .st0{fill:#FFFFFF;}
 #logo{
   height: auto;
  padding: 0px 15rem 0px 15rem;
   display: grid;
-  /* justify-content: center */
-
+  justify-content: center
+}
+#logo-svg{
+  width: 40vw;
 }
 body {
   color: rgb(var(--foreground-rgb));
@@ -31,4 +38,23 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+@media only screen and (min-width:500px) {
+  #logo{
+   
+    padding: 0rem 2rem 2rem 2rem;
+   }
+   #logo-svg{
+    width: 60vw;
+  }
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+  #logo{
+
+   padding: 0;
+    margin-bottom: 2rem;
+  }
+  #logo-svg{
+    width: 60vw;
+  }
 }
